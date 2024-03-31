@@ -1,4 +1,4 @@
-use sudoku::SudokuBoard;
+use sudoku::board::SudokuBoard;
 
 fn main() {
     let input = include_str!("../board.txt");
