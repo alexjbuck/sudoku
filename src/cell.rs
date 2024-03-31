@@ -1,6 +1,5 @@
 use std::collections::HashSet;
 use std::fmt::{self, Display, Formatter};
-use std::ops::Deref;
 #[derive(Debug, Default, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum CellValue {
     #[default]
