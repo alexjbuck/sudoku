@@ -1,4 +1,5 @@
-use crate::cell::{Cell, CellValue};
+use crate::cell::Cell;
+use crate::cellvalue::CellValue;
 use std::{
     collections::HashSet,
     fmt::{self, Display, Formatter},
